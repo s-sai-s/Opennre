@@ -56,12 +56,22 @@ We are now working on deploy OpenNRE as a Python package. Coming soon!
 Clone the repository from our github page (don't forget to star us!)
 
 ```bash
-git clone https://github.com/thunlp/OpenNRE.git
+git clone https://github.com/s-sai-s/Opennre.git
 ```
 
 If it is too slow, you can try
 ```
-git clone https://github.com/thunlp/OpenNRE.git --depth 1
+git clone https://github.com/s-sai-s/Opennre.git --depth 1
+```
+
+Then move all the files in the Opennre directory to the current directory
+```
+!mv Opennre/* .
+```
+
+Install the package
+```
+python setup.py develop
 ```
 
 Then install all the requirements:
